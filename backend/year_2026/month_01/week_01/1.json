@@ -1,0 +1,454 @@
+[
+  {
+    "entityId": "PUBID.thetasystemslimited|AID.bc_excel_importer|PAPPID.24466323-aee9-4049-a66d-a1af24466323",
+    "entityIdLoweredCased": "pubid.thetasystemslimited|aid.bc_excel_importer|pappid.24466323-aee9-4049-a66d-a1af24466323",
+    "entityType": 1,
+    "title": "Excellent Importer",
+    "publisher": "Theta Systems Limited",
+    "publisherId": "thetasystemslimited",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "ratings": 15,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": true,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 4.714,
+    "NumberOfRatings": 14,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0.9839999999999999,
+    "ratingSummary": {
+      "TotalRatings": 14,
+      "AverageRating": 4.714,
+      "StarsDistribution": {
+        "OneStars": 1,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 13
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.thetasystemslimited|AID.bc_excel_importer|PAPPID.24466323-aee9-4049-a66d-a1af24466323",
+      "CreatedAt": "2026-01-01T04:42:46.2785434+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 13,
+        "AverageRating": 4.692,
+        "StarsDistribution": {
+          "OneStars": 1,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 12
+        },
+        "Source": "AppSource",
+        "OfferId": "PUBID.thetasystemslimited|AID.bc_excel_importer|PAPPID.24466323-aee9-4049-a66d-a1af24466323",
+        "CreatedAt": "2021-05-09T14:52:45.8670818Z"
+      },
+      {
+        "TotalRatings": 14,
+        "AverageRating": 4.714,
+        "StarsDistribution": {
+          "OneStars": 1,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 13
+        },
+        "Source": "All",
+        "OfferId": "PUBID.thetasystemslimited|AID.bc_excel_importer|PAPPID.24466323-aee9-4049-a66d-a1af24466323",
+        "CreatedAt": "2026-01-01T04:42:46.2785331+00:00"
+      },
+      {
+        "TotalRatings": 14,
+        "AverageRating": 4.714,
+        "StarsDistribution": {
+          "OneStars": 1,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 13
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.thetasystemslimited|AID.bc_excel_importer|PAPPID.24466323-aee9-4049-a66d-a1af24466323",
+        "CreatedAt": "2026-01-01T04:42:46.2785434+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318Z0D67K",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Finance",
+        "locKey": "Filter_Finance",
+        "urlKey": "finance"
+      },
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "category_mask_3": 1024,
+    "categorysub_mask_3": 2048,
+    "category_mask_6": 64,
+    "categorysub_mask_6": 128,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.7406.94fe5c90-5747-43d4-8789-a210d4986e2c.942e472d-5fe3-42f9-96be-4ae5a3ad21a9.f826ab21-bf06-4d42-aee1-90a87e353735",
+    "shortDescription": "Import any Microsoft Excel or text file quickly into Microsoft Dynamics 365 Business Central",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://thetacdn.blob.core.windows.net/assets/Legal%20docs/Theta%20Extensions%20Appsource%20Terms%20and%20Conditions",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+    "entityIdLoweredCased": "pubid.erpconnectconsultingllc1655482443679|aid.aab|pappid.97b491aa-56a2-4f61-ba59-5c342664d6af",
+    "entityType": 1,
+    "title": "Advanced Assembly BOMs",
+    "publisher": "RUX Software, LLC",
+    "publisherId": "erpconnectconsultingllc1655482443679",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "ratings": 15,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 5,
+    "NumberOfRatings": 3,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 3,
+      "AverageRating": 5,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 3
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+      "CreatedAt": "2026-01-01T06:23:38.0870156+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "AppSource",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+        "CreatedAt": "2023-02-13T13:45:37.6225918Z"
+      },
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "All",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+        "CreatedAt": "2026-01-01T06:23:38.0870091+00:00"
+      },
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+        "CreatedAt": "2026-01-01T06:23:38.0870156+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318Z0KLXJ",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "category_mask_5": 134217728,
+    "categorysub_mask_5": 268435456,
+    "categorysub_mask_6": 4,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.34193.547ed09e-1deb-45f0-9078-5c52ec0c5b8d.77468ee6-ab97-43fc-9292-bccaa98f0e6b.445090d3-2483-4dfa-8f71-47c7b248781c",
+    "shortDescription": "Add Variant Assembly's, Date Controls, Un-Assemble, Location Defaults, and Phantom BOMs.",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://www.ruxsoftware.com/terms-of-services",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.erpconnectconsultingllc1655482443679|AID.dcc|PAPPID.26ea7414-4250-45d8-b87d-44673d54c604",
+    "entityIdLoweredCased": "pubid.erpconnectconsultingllc1655482443679|aid.dcc|pappid.26ea7414-4250-45d8-b87d-44673d54c604",
+    "entityType": 1,
+    "title": "Distribution Control Center",
+    "publisher": "RUX Software, LLC",
+    "publisherId": "erpconnectconsultingllc1655482443679",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "ratings": 15,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 5,
+    "NumberOfRatings": 3,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 3,
+      "AverageRating": 5,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 3
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.dcc|PAPPID.26ea7414-4250-45d8-b87d-44673d54c604",
+      "CreatedAt": "2026-01-01T08:13:59.4492115+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "AppSource",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.dcc|PAPPID.26ea7414-4250-45d8-b87d-44673d54c604",
+        "CreatedAt": "2023-05-16T11:57:52.5558173Z"
+      },
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "All",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.dcc|PAPPID.26ea7414-4250-45d8-b87d-44673d54c604",
+        "CreatedAt": "2026-01-01T08:13:59.4492061+00:00"
+      },
+      {
+        "TotalRatings": 3,
+        "AverageRating": 5,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 3
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.erpconnectconsultingllc1655482443679|AID.dcc|PAPPID.26ea7414-4250-45d8-b87d-44673d54c604",
+        "CreatedAt": "2026-01-01T08:13:59.4492115+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318Z0F3RH",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Distribution",
+        "locKey": "Filter_Distribution",
+        "urlKey": "distribution"
+      },
+      {
+        "longTitle": "Manufacturing & Mobility",
+        "locKey": "Filter_Manufacturing_Mobility",
+        "urlKey": "manufacturing-resources"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "category_mask_5": 134217728,
+    "categorysub_mask_6": 5,
+    "industry": 2097154,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.1283.ee079cc0-5ab0-4686-b742-471a33ff5c2e.2455ac78-08fd-40fc-b524-f836e1eda45c.b5696371-7a1a-4f18-8681-05bc8e91db81",
+    "shortDescription": "Warehouse Management Solutions for the SMB Market",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://www.ruxsoftware.com/terms-of-services",
+    "isSolutionMap": false
+  }
+]
