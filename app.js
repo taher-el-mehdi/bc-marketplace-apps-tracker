@@ -26,7 +26,7 @@ async function loadApps() {
     
     try {
         // Construct the path to the week folder
-        const weekPath = `../backend/year_${year}/month_${month}/week_${week}`;
+        const weekPath = `../bc-marketplace-apps-tracker/backend/year_${year}/month_${month}/week_${week}`;
         
         // Try to fetch day files (1-7 for the week)
         const dayFiles = [];
