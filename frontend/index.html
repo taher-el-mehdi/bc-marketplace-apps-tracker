@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC Marketplace Apps Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧩 Business Central New Apps Tracker</h1>
+            <p class="subtitle">Tracking new apps from Microsoft AppSource</p>
+        </header>
+
+        <div class="controls">
+            <div class="date-selector">
+                <label for="year">Year:</label>
+                <input type="number" id="year" value="2026" min="2020" max="2030">
+                
+                <label for="month">Month:</label>
+                <input type="number" id="month" value="1" min="1" max="12">
+                
+                <label for="week">Week:</label>
+                <input type="number" id="week" value="1" min="1" max="53">
+                
+                <button id="loadBtn">Load Apps</button>
+            </div>
+        </div>
+
+        <div id="stats" class="stats"></div>
+
+        <div id="appsList" class="apps-list">
+            <p class="empty-state">Select a year, month, and week to view new apps</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
