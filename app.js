@@ -28,11 +28,11 @@ async function loadApps() {
         // Construct the path to the week folder
         const weekPath = `../backend/year_${year}/month_${month}/week_${week}`;
         
-        // Try to fetch day files (1-31)
+        // Try to fetch day files (1-7 for the week)
         const dayFiles = [];
         let totalApps = 0;
         
-        for (let day = 1; day <= 31; day++) {
+        for (let day = 1; day <= 7; day++) {
             try {
                 const dayFile = `${day}.json`;
                 const response = await fetch(`${weekPath}/${dayFile}`);
