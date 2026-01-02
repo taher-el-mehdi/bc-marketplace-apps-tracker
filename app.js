@@ -85,7 +85,11 @@ async function loadApps() {
 function createAppCard(app) {
     const card = document.createElement('div');
     card.className = 'app-card';
-    
+    card.onclick = () => {
+        if (app.entityId) {
+            window.open('https://marketplace.microsoft.com/en-us/product/dynamics-365-business-central/'+app.entityId, '_blank');
+        }
+    }
     const header = document.createElement('div');
     header.className = 'app-header';
     
