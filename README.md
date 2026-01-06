@@ -1,8 +1,8 @@
 # 🧩 Business Central Apps Tracker
 
-Discover what’s new on Microsoft AppSource — day by day — with a simple, friendly tracker you can run locally. Pick a date, see the newly published apps for that day, and jump straight to their AppSource pages.🎉
+Discover newly installed **Dynamics 365 Business Central apps** — day by day — with a simple, friendly tracker you can use directly online. Pick a date, see which BC apps were installed on that day, and jump straight to their AppSource pages. 🎉  
 
-> TL;DR: Run the backend once to fetch new apps, then use the frontend to browse by Year/Month/Day. Week is handled automatically behind the scenes.
+👉 [**Live demo:**](https://taher-el-mehdi.github.io/bc-marketplace-apps-tracker/)
 
 ## 🌟 Highlights
 - 🆕 New apps detected daily and stored in tidy folders
