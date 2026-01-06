@@ -1,0 +1,1424 @@
+[
+  {
+    "entityId": "PUBID.aritma|AID.aritma-finance-manager|PAPPID.1f7d3bbb-2bc7-4e1b-9208-c53c4b3a1ac2",
+    "entityIdLoweredCased": "pubid.aritma|aid.aritma-finance-manager|pappid.1f7d3bbb-2bc7-4e1b-9208-c53c4b3a1ac2",
+    "entityType": 1,
+    "title": "Aritma Finance Manager Norway",
+    "publisher": "Aritma AS",
+    "publisherId": "aritma",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_ContactMe",
+    "ctaTypes": [
+      3
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 0,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": true,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.aritma|AID.aritma-finance-manager|PAPPID.1f7d3bbb-2bc7-4e1b-9208-c53c4b3a1ac2",
+      "CreatedAt": "2026-01-06T11:56:19.3239866+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.aritma|AID.aritma-finance-manager|PAPPID.1f7d3bbb-2bc7-4e1b-9208-c53c4b3a1ac2",
+        "CreatedAt": "2026-01-06T11:56:19.3239811+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.aritma|AID.aritma-finance-manager|PAPPID.1f7d3bbb-2bc7-4e1b-9208-c53c4b3a1ac2",
+        "CreatedAt": "2026-01-06T11:56:19.3239866+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318Z0VWS2",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Financial Services",
+        "locKey": "Filter_FinancialServices",
+        "urlKey": "financial-services"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Finance",
+        "locKey": "Filter_Finance",
+        "urlKey": "finance"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "REQUESTFORTRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "category_mask_3": 1024,
+    "categorysub_mask_3": 18432,
+    "industry": 64,
+    "industrysub_mask_1": 128,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.2533.1b2fa440-df57-44c3-8952-c0a707b14724.a418ea0a-ea42-4a8f-b799-1505f1ae7db3.c534f031-21a6-4d84-9c1c-e1d21936bcb3",
+    "shortDescription": "Bank connectivity for Business Central",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://www.aritma.com/legal",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.binarylabptyltd1739437691778|AID.bnlikhokhapaymentlinkoffer01|PAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+    "entityIdLoweredCased": "pubid.binarylabptyltd1739437691778|aid.bnlikhokhapaymentlinkoffer01|pappid.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+    "entityType": 1,
+    "title": "Ikhokha Payment Link",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "publisherId": "binarylabptyltd1739437691778",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Get",
+    "ctaTypes": [
+      7
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 8,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.binarylabptyltd1739437691778|AID.bnlikhokhapaymentlinkoffer01|PAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+      "CreatedAt": "2026-01-05T20:29:56.9573284+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.binarylabptyltd1739437691778|AID.bnlikhokhapaymentlinkoffer01|PAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+        "CreatedAt": "2026-01-05T20:29:56.9573236+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.binarylabptyltd1739437691778|AID.bnlikhokhapaymentlinkoffer01|PAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+        "CreatedAt": "2026-01-05T20:29:56.9573284+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": true,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPP9J",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": true,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      },
+      {
+        "longTitle": "IT & Management Tools",
+        "locKey": "Filter_ITManagementTools",
+        "urlKey": "management-tools"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details",
+        "License",
+        "Purchase",
+        "Renew"
+      ]
+    },
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "hasFreeTrials": true,
+    "isQuantifiable": true,
+    "additionalPurchasesRequired": false,
+    "appActionType": "FREE",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 64,
+    "categorysub_mask_6": 640,
+    "category_mask_4": 1024,
+    "categorysub_mask_4": 6144,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.9050.6a74e200-1122-45a8-a925-b5195001c6e1.be3b9910-6216-4f9f-ae8d-aff46bf708dc.8c1f43cb-71d2-40fc-84fe-c6a601db0e47",
+    "shortDescription": "Easily allow customers to pay invoices or orders and embed the link into your documents",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://catalogartifact.azureedge.net/publicartifacts/binarylabptyltd1739437691778.bnlikhokhapaymentlinkoffer01-557b6714-68c3-4ca3-afcb-3a05a6f90cd5/Artifacts/Documents/TermsOfUse.txt",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.microapps|AID.transus_edi_connector|PAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+    "entityIdLoweredCased": "pubid.microapps|aid.transus_edi_connector|pappid.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+    "entityType": 1,
+    "title": "Transus API Connector",
+    "publisher": "Micro Apps",
+    "publisherId": "microapps",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": true,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.microapps|AID.transus_edi_connector|PAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+      "CreatedAt": "2026-01-05T21:03:25.4583604+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.microapps|AID.transus_edi_connector|PAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+        "CreatedAt": "2026-01-05T21:03:25.4583556+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.microapps|AID.transus_edi_connector|PAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+        "CreatedAt": "2026-01-05T21:03:25.4583604+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMTZ",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 64,
+    "categorysub_mask_6": 512,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.65521.4f81099a-017c-4d6b-b5ef-ab46e7b09098.54facbc8-a17f-47e5-90b8-811d4f15b601.3200f71d-3699-42e7-a4f7-f02ecbc3a2c9",
+    "shortDescription": "Exchange business documents with the Transus EDI Connector",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://catalogartifact.azureedge.net/publicartifacts/microapps.transus_edi_connector-a4e216fb-e536-4517-b8b8-8376484b6d9f/Artifacts/Documents/TermsOfUse.txt",
+    "isSolutionMap": false,
+    "origin": "SearchApi",
+    "searchResponseId": "6a065a70-6fd0-4dec-8f56-6850fdd7eb80"
+  },
+  {
+    "entityId": "PUBID.adelcongmbh1671314822747|AID.documentcategory|PAPPID.2bd62d88-913f-430e-9f35-afe4ac73224f",
+    "entityIdLoweredCased": "pubid.adelcongmbh1671314822747|aid.documentcategory|pappid.2bd62d88-913f-430e-9f35-afe4ac73224f",
+    "entityType": 1,
+    "title": "Document Category",
+    "publisher": "ADELCON GmbH",
+    "publisherId": "adelcongmbh1671314822747",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_ContactMe",
+    "ctaTypes": [
+      3
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 0,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.adelcongmbh1671314822747|AID.documentcategory|PAPPID.2bd62d88-913f-430e-9f35-afe4ac73224f",
+      "CreatedAt": "2026-01-06T02:24:39.7074917+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.adelcongmbh1671314822747|AID.documentcategory|PAPPID.2bd62d88-913f-430e-9f35-afe4ac73224f",
+        "CreatedAt": "2026-01-06T02:24:39.7074868+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.adelcongmbh1671314822747|AID.documentcategory|PAPPID.2bd62d88-913f-430e-9f35-afe4ac73224f",
+        "CreatedAt": "2026-01-06T02:24:39.7074917+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMSW",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Distribution",
+        "locKey": "Filter_Distribution",
+        "urlKey": "distribution"
+      },
+      {
+        "longTitle": "Retail & Consumer Goods",
+        "locKey": "Filter_Retail_And_ConsumerGoods",
+        "urlKey": "retail-and-consumer-goods"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "REQUESTFORTRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_5": 134217728,
+    "categorysub_mask_6": 5,
+    "industry": 16777218,
+    "industrysub_mask_1": 100663296,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.13597.fe3f2f82-260e-4bd1-9e64-59043c0f6640.08669bba-af49-4676-abe7-dcb5f0e8e5a7.9d6f3c96-21bf-4903-b4cf-2b675d342595",
+    "shortDescription": "Belegkategorien und Status – mehr Übersicht und effiziente Verkaufs- und Einkaufsprozesse",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://www.adelcon.de/documents/Allgemeine_Geschaeftsbedingungen_der_Adelcon_GmbH.pdf",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-hetzner|PAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+    "entityIdLoweredCased": "pubid.bcility1636664056498|aid.bcility-external-file-storage-hetzner|pappid.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+    "entityType": 1,
+    "title": "External File Storage - Hetzner Object Storage Connector",
+    "publisher": "BCILITY",
+    "publisherId": "bcility1636664056498",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-hetzner|PAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+      "CreatedAt": "2026-01-06T02:37:42.0851632+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-hetzner|PAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+        "CreatedAt": "2026-01-06T02:37:42.0851588+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-hetzner|PAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+        "CreatedAt": "2026-01-06T02:37:42.0851632+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMSR",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 64,
+    "categorysub_mask_6": 512,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.1745.043349cc-307a-406c-a35b-d5a842c9ee95.30807d9e-c78f-4dcd-befd-6b5c3fc278a5.cd6b1864-f678-4fc7-a1e2-dd96adb56031",
+    "shortDescription": "Enables file and folder operations for Hetzner Object Storage via the External File Storage Module",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://catalogartifact.azureedge.net/publicartifacts/bcility1636664056498.bcility-external-file-storage-hetzner-c13236cb-d57b-4f09-949c-86d3c2529729/Artifacts/Documents/TermsOfUse.txt",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-wasabi|PAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+    "entityIdLoweredCased": "pubid.bcility1636664056498|aid.bcility-external-file-storage-wasabi|pappid.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+    "entityType": 1,
+    "title": "External File Storage - Wasabi S3 Connector",
+    "publisher": "BCILITY",
+    "publisherId": "bcility1636664056498",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-wasabi|PAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+      "CreatedAt": "2026-01-06T03:00:46.7533882+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-wasabi|PAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+        "CreatedAt": "2026-01-06T03:00:46.7533812+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-wasabi|PAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+        "CreatedAt": "2026-01-06T03:00:46.7533882+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMRJ",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 64,
+    "categorysub_mask_6": 512,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.17842.877a2b44-7e8d-4d92-82aa-44b147ea6789.98686e8c-3eb5-4599-a28f-96feaa883098.e25c2bf0-212a-4d25-943d-9f2d05da65f2",
+    "shortDescription": "Enables file and folder operations for Wasabi S3 Storage via the External File Storage Module",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://catalogartifact.azureedge.net/publicartifacts/bcility1636664056498.bcility-external-file-storage-wasabi-1084c138-b332-402e-9981-8822026d518a/Artifacts/Documents/TermsOfUse.txt",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.dynasoltechnologies1613635877559|AID.offer_05|PAPPID.5577481c-7937-439e-be34-b0ea7ecfe4fb",
+    "entityIdLoweredCased": "pubid.dynasoltechnologies1613635877559|aid.offer_05|pappid.5577481c-7937-439e-be34-b0ea7ecfe4fb",
+    "entityType": 1,
+    "title": "ShipRush Integration",
+    "publisher": "Dynasol Technologies",
+    "publisherId": "dynasoltechnologies1613635877559",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": true,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.dynasoltechnologies1613635877559|AID.offer_05|PAPPID.5577481c-7937-439e-be34-b0ea7ecfe4fb",
+      "CreatedAt": "2026-01-06T04:12:42.9441409+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.dynasoltechnologies1613635877559|AID.offer_05|PAPPID.5577481c-7937-439e-be34-b0ea7ecfe4fb",
+        "CreatedAt": "2026-01-06T04:12:42.9441375+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.dynasoltechnologies1613635877559|AID.offer_05|PAPPID.5577481c-7937-439e-be34-b0ea7ecfe4fb",
+        "CreatedAt": "2026-01-06T04:12:42.9441409+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMZK",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Distribution",
+        "locKey": "Filter_Distribution",
+        "urlKey": "distribution"
+      },
+      {
+        "longTitle": "Retail & Consumer Goods",
+        "locKey": "Filter_Retail_And_ConsumerGoods",
+        "urlKey": "retail-and-consumer-goods"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      },
+      {
+        "longTitle": "IT & Management Tools",
+        "locKey": "Filter_ITManagementTools",
+        "urlKey": "management-tools"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_5": 134217728,
+    "categorysub_mask_6": 12,
+    "category_mask_4": 1024,
+    "categorysub_mask_4": 4096,
+    "industry": 16777218,
+    "industrysub_mask_1": 33554432,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.31214.0be62d62-618a-4e3d-93fd-ef3bdc045e2a.cb9c00bc-5be5-4153-9ef5-00d31eddbd56.e97a511b-4565-479e-af15-f55c070c7efa",
+    "shortDescription": "Seamlessly manage multi-carrier shipping, labels, and tracking in Business Central with ShipRush.",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://dynasol.tech/terms-of-use/",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.punjabbullstechnologypvtltd1657690588839|AID.gl_entry_application_same_as_customervendor|PAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+    "entityIdLoweredCased": "pubid.punjabbullstechnologypvtltd1657690588839|aid.gl_entry_application_same_as_customervendor|pappid.9798763c-b132-4cfb-82c7-f256c60ffae7",
+    "entityType": 1,
+    "title": "GL Entry Application Same as Customer/Vendor",
+    "publisher": "Punjabbulls Technology Pvt. Ltd.",
+    "publisherId": "punjabbullstechnologypvtltd1657690588839",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_ContactMe",
+    "ctaTypes": [
+      3
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 0,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.punjabbullstechnologypvtltd1657690588839|AID.gl_entry_application_same_as_customervendor|PAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+      "CreatedAt": "2026-01-06T07:40:46.6511845+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.punjabbullstechnologypvtltd1657690588839|AID.gl_entry_application_same_as_customervendor|PAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+        "CreatedAt": "2026-01-06T07:40:46.6511787+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.punjabbullstechnologypvtltd1657690588839|AID.gl_entry_application_same_as_customervendor|PAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+        "CreatedAt": "2026-01-06T07:40:46.6511845+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMGC",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Finance",
+        "locKey": "Filter_Finance",
+        "urlKey": "finance"
+      },
+      {
+        "longTitle": "AI Apps and Agents",
+        "locKey": "Filter_AIAppsAndAgents",
+        "urlKey": "ai-apps-and-agents"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "REQUESTFORTRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_3": 1024,
+    "categorysub_mask_3": 2048,
+    "category_mask_1": 256,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.44689.775c4e70-3ce4-4ae3-86d2-a12b8ed17b93.9a3c4f70-3949-4f8e-a3d1-75751a7b73bc.1dc2512d-e5d2-433c-9fc3-60723fa54ed3",
+    "shortDescription": "A General Ledger (GL) Entry Application feature that works on the same as Customer and Vendor",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://catalogartifact.azureedge.net/publicartifacts/punjabbullstechnologypvtltd1657690588839.gl_entry_application_same_as_customervendor-79439126-be92-499d-99b6-d8b4eaa899a4/Artifacts/Documents/TermsOfUse.txt",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.fidesiousprobv1710687577357|AID.wms_scanning_pictures|PAPPID.a1697e41-c252-40c7-9aae-20eddf9bf267",
+    "entityIdLoweredCased": "pubid.fidesiousprobv1710687577357|aid.wms_scanning_pictures|pappid.a1697e41-c252-40c7-9aae-20eddf9bf267",
+    "entityType": 1,
+    "title": "WMS Scanning Pictures",
+    "publisher": "FidesiousPro",
+    "publisherId": "fidesiousprobv1710687577357",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Get",
+    "ctaTypes": [
+      1
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 1,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.fidesiousprobv1710687577357|AID.wms_scanning_pictures|PAPPID.a1697e41-c252-40c7-9aae-20eddf9bf267",
+      "CreatedAt": "2026-01-06T09:17:47.2322565+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.fidesiousprobv1710687577357|AID.wms_scanning_pictures|PAPPID.a1697e41-c252-40c7-9aae-20eddf9bf267",
+        "CreatedAt": "2026-01-06T09:17:47.232253+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.fidesiousprobv1710687577357|AID.wms_scanning_pictures|PAPPID.a1697e41-c252-40c7-9aae-20eddf9bf267",
+        "CreatedAt": "2026-01-06T09:17:47.2322565+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPMFJ",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Distribution",
+        "locKey": "Filter_Distribution",
+        "urlKey": "distribution"
+      },
+      {
+        "longTitle": "Manufacturing & Mobility",
+        "locKey": "Filter_Manufacturing_Mobility",
+        "urlKey": "manufacturing-resources"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "FREE",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_5": 134217728,
+    "categorysub_mask_6": 8,
+    "industry": 2097154,
+    "industrysub_mask_1": 8388608,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.51320.bee20c7c-2061-47db-93b4-d5b2dabeccdf.2e2386a6-81e5-4a63-8ec2-7896da5395af.5495a883-ee05-4bc9-98f8-c2439c84182f",
+    "shortDescription": "Add-on to add pictures to our WMS Scanning solution.",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://fidesiouspro.nl/en/eula/",
+    "isSolutionMap": false,
+    "origin": "SearchApi",
+    "searchResponseId": "6a065a70-6fd0-4dec-8f56-6850fdd7eb80"
+  },
+  {
+    "entityId": "PUBID.dynamics_consultants|AID.dc_dynamics_center|PAPPID.44aaac60-ab1c-44e2-b4e9-bed927075422",
+    "entityIdLoweredCased": "pubid.dynamics_consultants|aid.dc_dynamics_center|pappid.44aaac60-ab1c-44e2-b4e9-bed927075422",
+    "entityType": 1,
+    "title": "Dynamics Center",
+    "publisher": "Dynamics Consultants Ltd.",
+    "publisherId": "dynamics_consultants",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.dynamics_consultants|AID.dc_dynamics_center|PAPPID.44aaac60-ab1c-44e2-b4e9-bed927075422",
+      "CreatedAt": "2026-01-06T11:55:24.7973449+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.dynamics_consultants|AID.dc_dynamics_center|PAPPID.44aaac60-ab1c-44e2-b4e9-bed927075422",
+        "CreatedAt": "2026-01-06T11:55:24.7973378+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.dynamics_consultants|AID.dc_dynamics_center|PAPPID.44aaac60-ab1c-44e2-b4e9-bed927075422",
+        "CreatedAt": "2026-01-06T11:55:24.7973449+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPNDC",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [],
+    "categoriesDetails": [
+      {
+        "longTitle": "Productivity",
+        "locKey": "Filter_Productivity",
+        "urlKey": "productivity"
+      },
+      {
+        "longTitle": "IT & Management Tools",
+        "locKey": "Filter_ITManagementTools",
+        "urlKey": "management-tools"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Browse",
+        "Curate",
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 64,
+    "categorysub_mask_6": 12288,
+    "category_mask_4": 1024,
+    "categorysub_mask_4": 6144,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.64497.372215e2-7eec-477c-8273-b77f8f56d9a9.b0d64a40-7b6e-44a6-aaeb-5584a4ab88b7.70d43832-ee41-45ef-a599-a298aa89c8d9",
+    "shortDescription": "Dynamics Center contains various minor functions to make working with BC easier for the users",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://dynamics-consultants.co.uk/media/5u2jje3z/dc-standard-tpluscs.pdf",
+    "isSolutionMap": false
+  }
+]
