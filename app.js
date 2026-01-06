@@ -2,12 +2,13 @@
 const today = new Date();
 document.getElementById('year').value = today.getFullYear();
 document.getElementById('month').value = today.getMonth() + 1;
+document.getElementById('day').value = today.getDate();
 
 // Load apps when button is clicked
 document.getElementById('loadBtn').addEventListener('click', loadApps);
 
 // Load on Enter key
-['year', 'month', 'week'].forEach(id => {
+['year', 'month', 'day'].forEach(id => {
     document.getElementById(id).addEventListener('keypress', (e) => {
         if (e.key === 'Enter') loadApps();
     });
@@ -16,7 +17,7 @@ document.getElementById('loadBtn').addEventListener('click', loadApps);
 async function loadApps() {
     const year = document.getElementById('year').value;
     const month = String(document.getElementById('month').value).padStart(2, '0');
-    const week = String(document.getElementById('week').value).padStart(2, '0');
+    const day = parseInt(document.getElementById('day').value, 10);
     
     const appsList = document.getElementById('appsList');
     const stats = document.getElementById('stats');
@@ -25,57 +26,45 @@ async function loadApps() {
     stats.innerHTML = '';
     
     try {
-        // Construct the path to the week folder
+        // Compute ISO week from the selected Year/Month/Day
+        const selectedDate = new Date(Number(year), Number(month) - 1, Number(day));
+        const weekNumber = getISOWeekNumber(selectedDate);
+        const week = String(weekNumber).padStart(2, '0');
+
+        // Construct the path to the computed week folder
         const weekPath = `../bc-marketplace-apps-tracker/backend/year_${year}/month_${month}/week_${week}`;
-        
-        // Try to fetch day files (1-7 for the week)
-        const dayFiles = [];
-        let totalApps = 0;
-        
-        for (let day = 1; day <= 7; day++) {
-            try {
-                const dayFile = `${day}.json`;
-                const response = await fetch(`${weekPath}/${dayFile}`);
-                
-                if (response.ok) {
-                    const apps = await response.json();
-                    if (apps.length > 0) {
-                        dayFiles.push({ day, apps });
-                        totalApps += apps.length;
-                    }
-                }
-            } catch (err) {
-                // File doesn't exist, skip
-            }
-        }
-        
-        if (dayFiles.length === 0) {
-            appsList.innerHTML = '<p class="empty-state">📭 No new apps found for this week</p>';
+
+        // Fetch apps for the selected calendar day (day-of-month)
+        const response = await fetch(`${weekPath}/${day}.json`);
+
+        if (!response.ok) {
+            appsList.innerHTML = '<p class="empty-state">📭 No new apps found for the selected day</p>';
+            stats.innerHTML = `📊 Year ${year}, Month ${month}, Day ${day}`;
             return;
         }
-        
-        // Display stats
-        stats.innerHTML = `📊 Found <strong>${totalApps}</strong> new apps across <strong>${dayFiles.length}</strong> days in Year ${year}, Month ${month}, Week ${week}`;
-        
-        // Display apps grouped by day
+
+        const apps = await response.json();
+
+        // Display stats (no week shown)
+        stats.innerHTML = `📊 Found <strong>${apps.length}</strong> new apps on Year ${year}, Month ${month}, Day ${day}`;
+
+        // Display apps for the day
         appsList.innerHTML = '';
-        dayFiles.forEach(({ day, apps }) => {
-            const daySection = document.createElement('div');
-            daySection.className = 'day-section';
-            
-            const dayHeader = document.createElement('div');
-            dayHeader.className = 'day-header';
-            dayHeader.innerHTML = `<h2>Day ${day} <span class="day-count">(${apps.length} apps)</span></h2>`;
-            daySection.appendChild(dayHeader);
-            
-            apps.forEach(app => {
-                const appCard = createAppCard(app);
-                daySection.appendChild(appCard);
-            });
-            
-            appsList.appendChild(daySection);
+        const daySection = document.createElement('div');
+        daySection.className = 'day-section';
+
+        const dayHeader = document.createElement('div');
+        dayHeader.className = 'day-header';
+        dayHeader.innerHTML = `<h2>Day ${day} <span class="day-count">(${apps.length} apps)</span></h2>`;
+        daySection.appendChild(dayHeader);
+
+        apps.forEach(app => {
+            const appCard = createAppCard(app);
+            daySection.appendChild(appCard);
         });
-        
+
+        appsList.appendChild(daySection);
+
     } catch (error) {
         console.error('Error loading apps:', error);
         appsList.innerHTML = '<p class="error-state">❌ Error loading apps. Make sure the folder structure exists.</p>';
@@ -180,9 +169,7 @@ function createAppCard(app) {
 
 // Load initial data on page load
 window.addEventListener('load', () => {
-    // Calculate ISO week number
-    const weekNumber = getISOWeekNumber(today);
-    document.getElementById('week').value = weekNumber;
+    document.getElementById('day').value = today.getDate();
     loadApps();
 });
 

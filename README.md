@@ -1,285 +1,121 @@
-# 🧩 AppSource Business Central Tracker
+# 🧩 Business Central Apps Tracker
 
-Track and monitor new Microsoft Dynamics 365 Business Central apps published on AppSource. This application automatically fetches, compares, and stores newly published apps in an organized directory structure, with a beautiful web interface to browse and explore the apps.
+Discover what’s new on Microsoft AppSource — day by day — with a simple, friendly tracker you can run locally. Pick a date, see the newly published apps for that day, and jump straight to their AppSource pages.🎉
 
-## 📋 Table of Contents
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Configuration](#-configuration)
-- [Frontend Application](#-frontend-application)
-- [Data Structure](#-data-structure)
-- [How It Works](#-how-it-works)
-- [Scheduling](#-scheduling)
+> TL;DR: Run the backend once to fetch new apps, then use the frontend to browse by Year/Month/Day. Week is handled automatically behind the scenes.
 
-## 🚀 Features
+## 🌟 Highlights
+- 🆕 New apps detected daily and stored in tidy folders
+- 📅 Browse by Year/Month/Day (week is auto-calculated)
+- 🃏 Clean, card-based UI with direct AppSource links
+- 💾 Simple JSON storage — no database needed
+- ⚡ Works offline with a basic static server
 
-### Backend Tracker
-* 🔍 **Automatic Fetching**: Retrieves all Business Central apps from Microsoft AppSource API
-* 🆕 **Change Detection**: Identifies newly added apps since the last run
-* 📁 **Organized Storage**: Saves apps in a hierarchical structure by year/month/week/day
-* 💾 **Master List**: Maintains an updated `apps.json` file with all known apps
-* 📊 **ISO Week Support**: Uses ISO 8601 week numbering for consistency
-* ⚡ **Pagination Support**: Handles large datasets with automatic pagination
-
-### Frontend Viewer
-* 🎨 **Modern UI**: Beautiful gradient design with smooth animations
-* 📅 **Date Navigation**: Easily browse apps by year, month, and week
-* 🃏 **Card Layout**: Displays apps in an intuitive card-based interface
-* 🔗 **Direct Links**: Quick access to AppSource pages for each app
-* 📊 **Statistics**: Shows total apps and daily breakdown
-* 📱 **Responsive Design**: Works on desktop and mobile devices
-* ⭐ **App Details**: Displays ratings, categories, publishers, and descriptions
-
-## 📂 Project Structure
+## 🗺️ Project Map
 
 ```
 bc-marketplace-apps-tracker/
-│
 ├── backend/
-│   ├── script.js              # Main tracking script
-│   ├── apps.json              # Master list of all apps
-│   │
-│   └── year_2026/
-│       └── month_01/
-│           └── week_01/
-│               ├── 01.json    # Apps found on day 1
-│               ├── 02.json    # Apps found on day 2
-│               └── ...
-│
-├── frontend/
-│   ├── index.html             # Main HTML page
-│   ├── style.css              # Styling and layout
-│   └── app.js                 # JavaScript for loading/displaying apps
-│
-└── README.md                  # This file
+│   ├── script.js              # Fetch + diff new apps
+│   ├── apps.json              # Master list (all known apps)
+│   └── year_YYYY/month_MM/week_WW/
+│       └── DD.json            # New apps on calendar day DD
+├── app.js                     # Frontend logic
+├── index.html                 # Frontend page
+├── style.css                  # Frontend styles
+└── README.md
 ```
 
-## 🔧 Installation
+## 🚀 Quick Start
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm (Node Package Manager)
-
-### Setup Steps
-
-1. **Clone or download the repository**
-   ```bash
-   cd bc-marketplace-apps-tracker
-   ```
-
-2. **Install dependencies**
-   ```bash
-   cd backend
-   npm install axios
-   ```
-
-3. **Verify installation**
-   ```bash
-   node script.js
-   ```
-
-## 💻 Usage
-
-### Running the Tracker
-
-Navigate to the backend folder and run the script:
+1) Run the tracker (backend):
 
 ```bash
 cd backend
+npm i axios
 node script.js
 ```
 
-**Expected Output:**
-```
-📅 Today: Wed Jan 01 2026 (Week 1)
-🚀 Starting App Tracker...
-✅ Fetching apps from page 1
-✅ Fetching apps from page 2
-...
-🆕 15 new apps found today!
-💾 New apps saved to: backend/year_2026/month_01/week_01/1.json
-✅ apps.json updated.
-```
+2) Open the viewer (frontend):
+- Use a static server so fetch works:
 
-### Viewing Apps in the Frontend
-
-1. **Open the frontend**
-   - Navigate to the `frontend` folder
-   - Open `index.html` in your web browser
-   - Or use a local server for better experience:
-     ```bash
-     cd frontend
-     python -m http.server 8000
-     # Then open http://localhost:8000
-     ```
-
-2. **Browse apps**
-   - Select year, month, and week using the input fields
-   - Click "Load Apps" to view new apps for that period
-   - Scroll through the app cards to see details
-   - Click "View on AppSource" to open the app's page
-
-## ⚙️ Configuration
-
-### Backend Settings
-
-Edit `backend/script.js` to customize:
-
-```javascript
-// API endpoint configuration
-const url = 'https://appsource.microsoft.com/view/tiledata?...';
-
-// Maximum pages to fetch (set lower to speed up testing)
-const pageCount = 999;
-```
-
-### Frontend Settings
-
-Edit `frontend/app.js` to customize:
-
-```javascript
-// Default date values are automatically set to current date
-// Modify the loadApps() function to change default behavior
-```
-
-## 🌐 Frontend Application
-
-### Features in Detail
-
-**Date Selector**
-- Year input (2020-2030)
-- Month input (1-12)
-- Week input (1-53) using ISO 8601 standard
-- Auto-loads current week on page load
-
-**App Cards Display**
-- App icon or placeholder with first letter
-- App name and publisher
-- Description/summary
-- Rating and review count
-- Categories
-- Supported countries
-- Direct link to AppSource
-
-**User Experience**
-- Smooth hover animations
-- Loading states
-- Error handling
-- Empty state messages
-- Grouped by day within the week
-
-## 📊 Data Structure
-
-### apps.json (Master List)
-Contains all apps ever discovered:
-```json
-[
-  {
-    "entityId": "unique-app-id",
-    "displayName": "App Name",
-    "publisherName": "Publisher Name",
-    "description": "App description...",
-    "ratingAverage": 4.5,
-    "ratingCount": 120,
-    "categories": ["Sales", "Finance"],
-    "detailPageUrl": "https://...",
-    "imageUrl": "https://...",
-    ...
-  }
-]
-```
-
-### Daily JSON Files (e.g., 01.json)
-Contains only new apps discovered on that day:
-```json
-[
-  {
-    "entityId": "new-app-id",
-    "displayName": "New App Name",
-    ...
-  }
-]
-```
-
-## 🔄 How It Works
-
-1. **Fetching**: Script queries the AppSource API page by page
-2. **Comparison**: Compares fetched apps against the master `apps.json` list
-3. **Detection**: Identifies apps that don't exist in the master list
-4. **Storage**: Saves new apps in the current week/day folder
-5. **Update**: Updates the master list with all current apps
-
-### Week Calculation
-Uses ISO 8601 week date system:
-- Week starts on Monday
-- Week 1 is the week with the year's first Thursday
-- Ensures consistent week numbering globally
-
-## ⏰ Scheduling
-
-### Windows Task Scheduler
-
-Run the tracker automatically every day:
-
-1. Open Task Scheduler
-2. Create Basic Task
-3. Set trigger: Daily at your preferred time
-4. Action: Start a program
-   - Program: `node`
-   - Arguments: `C:\path\to\backend\script.js`
-   - Start in: `C:\path\to\backend`
-
-### Linux/Mac Cron
-
-Add to crontab (`crontab -e`):
 ```bash
-# Run daily at 9 AM
+# From repo root
+npx http-server -p 8080 -c-1 .
+# Then open http://localhost:8080/bc-marketplace-apps-tracker/
+```
+
+Or use VS Code “Live Server” extension from the repo root.
+
+## 🖥️ Using the Frontend
+- Set Year, Month, Day in the inputs
+- Click “Load Apps”
+- The app computes the ISO week internally and loads the file:
+  - `backend/year_YYYY/month_MM/week_WW/DD.json`
+- Example: 2026-01-05 → week_02 → loads `5.json`
+
+## 🔧 Config & Behavior
+
+Backend (`backend/script.js`):
+- Pulls AppSource tiles via the `url` endpoint
+- Compares to `apps.json` and saves only new apps under the current week/day
+- Updates `apps.json` after every run
+
+Frontend (`app.js`):
+- Inputs for Year/Month/Day only
+- Week is auto-calculated from the selected date
+- Renders app cards with title, publisher, description, and link
+
+## 📊 Data Shape
+
+Daily files (e.g., `backend/year_2026/month_01/week_02/5.json`):
+```json
+[
+  {
+    "entityId": "PUBID...|AID...|PAPPID...",
+    "title": "Contoso App",
+    "publisher": "Contoso Ltd.",
+    "detailPageUrl": "https://...",
+    "ratingAverage": 0,
+    "ratingCount": 0
+  }
+]
+```
+
+Master list (`backend/apps.json`) contains all known apps.
+
+## 🧠 How It Works
+1. Fetch AppSource listing pages (paginated)
+2. Compare with the previous `apps.json`
+3. Save only new apps into `year/month/week/day` by calendar day
+4. Update the master `apps.json`
+5. Frontend loads the single `DD.json` for the chosen date
+
+## ⏰ Automate It (Optional)
+Schedule a daily run:
+
+Windows Task Scheduler
+- Program: `node`
+- Arguments: `C:\path\to\backend\script.js`
+- Start in: `C:\path\to\backend`
+
+Linux/Mac cron
+```bash
 0 9 * * * cd /path/to/backend && node script.js >> tracker.log 2>&1
 ```
 
-### Alternative: Node Scheduler
+## 🧩 Tips
+- First run: everything looks “new” — expected!
+- Serve via a static server (fetch requires http://)
+- Folder names are zero-padded: `month_01`, `week_02`, etc.
+- If a date shows “No new apps”, that day-file likely wasn’t created.
 
-Install `node-cron`:
-```bash
-npm install node-cron
-```
-
-Create a wrapper script:
-```javascript
-const cron = require('node-cron');
-const { exec } = require('child_process');
-
-// Run every day at 9 AM
-cron.schedule('0 9 * * *', () => {
-  exec('node script.js', (error, stdout, stderr) => {
-    console.log(stdout);
-  });
-});
-```
-
-## 📝 Notes
-
-- **First Run**: On the first execution, all apps will be considered "new"
-- **Incremental**: Subsequent runs only detect truly new apps
-- **API Limits**: Be mindful of API rate limits if running very frequently
-- **Storage**: Each week creates a new folder; old data is preserved
-- **No Database**: Uses simple JSON files for easy portability
-
-## 🤝 Contributing
-
-Suggestions and improvements are welcome! Common enhancements:
-- Add filtering and search in frontend
-- Export data to CSV/Excel
-- Email notifications for new apps
-- Trend analysis and charts
-- App comparison features
-
-## 📄 License
-
-This project is open source and available for personal and commercial use.
+## 🤝 Contribute Ideas
+- Add search and filters in the UI
+- Export to CSV/Excel
+- Notifications for new apps
+- Trend charts by week/month
 
 ---
 
-**Happy Tracking! 🎉**
+Happy tracking! ✨
