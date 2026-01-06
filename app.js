@@ -4,8 +4,12 @@ document.getElementById('year').value = today.getFullYear();
 document.getElementById('month').value = today.getMonth() + 1;
 document.getElementById('day').value = today.getDate();
 
-// Load apps when button is clicked
-document.getElementById('loadBtn').addEventListener('click', loadApps);
+// Auto-load when month/day changes
+['month', 'day'].forEach(id => {
+    document.getElementById(id).addEventListener('change', () => {
+        loadApps();
+    });
+});
 
 // Load on Enter key
 ['year', 'month', 'day'].forEach(id => {
