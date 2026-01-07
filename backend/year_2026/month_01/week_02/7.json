@@ -1,0 +1,289 @@
+[
+  {
+    "entityId": "PUBID.cosmoconsultag|AID.hansalog_bc|PAPPID.235e80bd-0c05-4549-9665-53d797ef886f",
+    "entityIdLoweredCased": "pubid.cosmoconsultag|aid.hansalog_bc|pappid.235e80bd-0c05-4549-9665-53d797ef886f",
+    "entityType": 1,
+    "title": "COSMO Hansalog Connector",
+    "publisher": "COSMO CONSULT",
+    "publisherId": "cosmoconsultag",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": false,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.cosmoconsultag|AID.hansalog_bc|PAPPID.235e80bd-0c05-4549-9665-53d797ef886f",
+      "CreatedAt": "2026-01-07T03:16:13.8025442+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.cosmoconsultag|AID.hansalog_bc|PAPPID.235e80bd-0c05-4549-9665-53d797ef886f",
+        "CreatedAt": "2026-01-07T03:16:13.8025388+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.cosmoconsultag|AID.hansalog_bc|PAPPID.235e80bd-0c05-4549-9665-53d797ef886f",
+        "CreatedAt": "2026-01-07T03:16:13.8025442+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPR5R",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Financial Services",
+        "locKey": "Filter_FinancialServices",
+        "urlKey": "financial-services"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Finance",
+        "locKey": "Filter_Finance",
+        "urlKey": "finance"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_3": 1024,
+    "categorysub_mask_3": 2048,
+    "industry": 64,
+    "industrysub_mask_1": 128,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.56273.7d3620b2-4afa-4e88-a1bb-360fcdd14ba4.5e77808e-7e2f-4318-a4c3-da81c6bdd229.e0ca52bf-5fa8-4c7a-96ea-32e234a710fa",
+    "shortDescription": "Payroll data, Financial accounting, Data import, Hansalog Vision",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://cdn.cosmoconsult.com/EULA/COSMO_CONSULT_EULA_en.pdf",
+    "isSolutionMap": false
+  },
+  {
+    "entityId": "PUBID.consultorescanariosdeinformatica1630665323997|AID.norayhtl_nbi|PAPPID.1716274a-f0c5-4707-901d-c62418f53edc",
+    "entityIdLoweredCased": "pubid.consultorescanariosdeinformatica1630665323997|aid.norayhtl_nbi|pappid.1716274a-f0c5-4707-901d-c62418f53edc",
+    "entityType": 1,
+    "title": "Noray Htl: NewBI",
+    "publisher": "CONSULTORES CANARIOS DE INFORMÁTICA",
+    "publisherId": "consultorescanariosdeinformatica1630665323997",
+    "builtFor": "Dynamics 365 Business Central",
+    "iconBackgroundColor": null,
+    "actionString": "CTA_Try",
+    "ctaTypes": [
+      2
+    ],
+    "primaryProduct": {
+      "product_mask_1": 1024
+    },
+    "products": {
+      "product_mask_1": 1024
+    },
+    "pricingModel": 2,
+    "appCompliance": 0,
+    "showcaseLink": null,
+    "leadgenEnabled": true,
+    "filtermatch": true,
+    "detailInformation": null,
+    "detailLoadFailed": false,
+    "startingPrice": null,
+    "awards": null,
+    "universalAmendmentUrl": null,
+    "CertificationState": "None",
+    "CertificationLink": null,
+    "tags": null,
+    "locale": null,
+    "AverageRating": 0,
+    "NumberOfRatings": 0,
+    "planPricingType": 3,
+    "linkedAddIns": [],
+    "linkedSaaS": null,
+    "hideFromAdminPortal": false,
+    "offerType": 0,
+    "popularity": 0,
+    "ratingSummary": {
+      "TotalRatings": 0,
+      "AverageRating": 0,
+      "StarsDistribution": {
+        "OneStars": 0,
+        "TwoStars": 0,
+        "ThreeStars": 0,
+        "FourStars": 0,
+        "FiveStars": 0
+      },
+      "Source": "Internal",
+      "OfferId": "PUBID.consultorescanariosdeinformatica1630665323997|AID.norayhtl_nbi|PAPPID.1716274a-f0c5-4707-901d-c62418f53edc",
+      "CreatedAt": "2026-01-07T14:12:17.2833931+00:00"
+    },
+    "ratingSummaries": [
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "All",
+        "OfferId": "PUBID.consultorescanariosdeinformatica1630665323997|AID.norayhtl_nbi|PAPPID.1716274a-f0c5-4707-901d-c62418f53edc",
+        "CreatedAt": "2026-01-07T14:12:17.2833861+00:00"
+      },
+      {
+        "TotalRatings": 0,
+        "AverageRating": 0,
+        "StarsDistribution": {
+          "OneStars": 0,
+          "TwoStars": 0,
+          "ThreeStars": 0,
+          "FourStars": 0,
+          "FiveStars": 0
+        },
+        "Source": "Internal",
+        "OfferId": "PUBID.consultorescanariosdeinformatica1630665323997|AID.norayhtl_nbi|PAPPID.1716274a-f0c5-4707-901d-c62418f53edc",
+        "CreatedAt": "2026-01-07T14:12:17.2833931+00:00"
+      }
+    ],
+    "licenseManagement": {
+      "isMicrosoftManaged": false,
+      "isFreemium": false
+    },
+    "bigId": "DZH318XZPRT1",
+    "downloadLink": null,
+    "downloadSampleLink": null,
+    "hasPrices": false,
+    "industriesDetails": [
+      {
+        "longTitle": "Hospitality & Travel",
+        "locKey": "Filter_HospitalityTravel",
+        "urlKey": "hospitality-and-travel"
+      }
+    ],
+    "categoriesDetails": [
+      {
+        "longTitle": "Sales",
+        "locKey": "Filter_Sales",
+        "urlKey": "sales"
+      },
+      {
+        "longTitle": "Operations & Supply Chain",
+        "locKey": "Filter_OperationsAndSupplyChain",
+        "urlKey": "operations"
+      }
+    ],
+    "productType": 16384,
+    "badges": [],
+    "isAppsourceOffer": true,
+    "catalogOfferType": "DynamicsBC",
+    "operatingSystem": 0,
+    "skuAggregatedData": {
+      "actions": [
+        "Details"
+      ]
+    },
+    "pricingTypes": [],
+    "hasFreeTrials": false,
+    "isQuantifiable": false,
+    "additionalPurchasesRequired": false,
+    "appActionType": "TRIAL",
+    "hideFromSaasBlade": false,
+    "productLabels": [],
+    "serviceFamily": "Dynamics 365 Marketplace Services",
+    "catalogProductType": "Azure",
+    "determinedStorefronts": [
+      "Appsource",
+      "Cosell"
+    ],
+    "category_mask_6": 65536,
+    "categorysub_mask_6": 3145731,
+    "category_mask_5": 134217728,
+    "industry": 524288,
+    "isCloudIndustry": false,
+    "iconURL": "https://store-images.s-microsoft.com/image/apps.63270.e719a7af-339b-4e70-88d8-62c90970b42f.7c5ab497-19b3-443c-82f5-00bc79c6730a.18410649-1272-4290-afc5-c44685f31c3f",
+    "shortDescription": "Noray Htl: NewBI Tools is the ideal complement to Noray Htl to analysis of data",
+    "handoffURL": null,
+    "licenseTermsUrl": "https://www.noray.com/wp-content/uploads/2024/03/Condiciones-Generales-SaaS-Noray-18-Marzo-2024_v001-ENG.pdf",
+    "isSolutionMap": false
+  }
+]
